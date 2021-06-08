@@ -5,5 +5,9 @@
 - /articles/microsites
 - /articles/quickstart
 - /articles/_includes
-- /snippets
-- /updates
+- /articles/set-up
+- /articles/configuration
+- /articles/customization
+- /articles/secure
+- /articles/troubleshoot
+- /articles/deploy

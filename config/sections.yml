@@ -34,3 +34,33 @@
   title: "Identity Labs"
   url: "/identity-labs"
   folder: "identity-labs"
+
+- id: 'set-up'
+  title: 'Set Up'
+  url: '/set-up'
+  folder: 'set-up'
+
+- id: 'configuration'
+  title: 'Configuration'
+  url: '/configuration'
+  folder: 'configuration'
+
+- id: 'customization'
+  title: 'Customization'
+  url: '/customization'
+  folder: 'customization'
+
+- id: 'secure'
+  title: 'Secure'
+  url: '/secure'
+  folder: 'secure'
+
+- id: 'troubleshoot'
+  title: 'Troubleshoot'
+  url: '/troubleshoot'
+  folder: 'troubleshoot'
+
+- id: 'deploy'
+  title: 'Deploy'
+  url: '/deploy'
+  folder: 'deploy'

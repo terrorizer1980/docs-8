@@ -1,3 +1,57 @@
+set-up:
+  - title: Login
+    url: /set-up/login
+  - title: Auth0 Overview
+    url: /set-up/auth0-overview
+configuration:
+  - title: Database Connections
+    url: /configuration/database-connections
+  - title: Identity Provider
+    url: /configuration/identity-provider
+customization:
+  - title: Marketplace
+    url: /customization/marketplace
+  - title: Extensions
+    url: /customization/extensions
+  - title: Brand
+    url: /customization/brand
+    children:
+      - title: Universal Login Pages
+        url: /customization/brand/universal-login-pages
+      - title: Custom Domains
+        url: /customization/brand/custom-domains
+        children:
+          - title: Auth0 Managed Certificates
+            url: /customization/brand/custom-domains/auth0-managed-certificates
+          - title: Self Managed Certificates
+            url: /customization/brand/custom-domains/self-managed-certificates
+            children:
+              - title: Cloudflare Reverse Proxy
+                url: /customization/brand/custom-domains/auth0-managed-certificate/cloudflare-reverse-proxy
+secure:
+  - title: Attack Protection
+    url: /secure/attack-protection
+    children:
+      - title: Bot Protection
+        url: /secure/attack-protection/bot-attack
+      - title: Breached Passwords
+        url: /secure/attack-protection/breached-passwords
+      - title: Brute Force Attack
+        url: /secure/attack-protection/brute-force-attack
+  - title: Common Threats
+    url: /secure/common-threats
+  - title: Security Guidance
+    url: /secure/guidance
+troubleshoot:
+  - title: Logs
+    url: /troubleshoot/logs
+  - title: Monitor
+    url: /troubleshoot/monitor
+deploy:
+  - title: Deploy
+    url: /deploy/deploy
+  - title: Professional Services
+    url: /deploy/professional-services
 articles:
   - title: Get Started
     url: /get-started
