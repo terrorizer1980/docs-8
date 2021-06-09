@@ -638,10 +638,43 @@ secure:
         url: /secure/attack-protection/breached-passwords
       - title: Brute Force Attack
         url: /secure/attack-protection/brute-force-attack
+      - title: Set Preferences
+        url: /secure/attack-protection/set-preferences
+      - title: Customize Emails
+        url: /secure/attack-protection/customize-emails
+      - title: View Events
+        url: /secure/attack-protection/view-events
   - title: Common Threats
     url: /secure/common-threats
   - title: Security Guidance
     url: /secure/guidance
+    children:
+      - title: Add IP Addresses to AllowList
+        url: /secure/guidance/allow-list
+      - title: Add User Attributes to the DenyList
+        url: /secure/guidance/deny-list
+      - title: Cookies
+        url: /secure/guidance/cookies
+  - title: Data Privacy
+    url: /secure/data-privacy
+    children:
+      - title: GDPR
+        url: /secure/data-privacy/gdpr
+      - title: Data Processing
+        url: /secure/data-privacy/data-processing
+  - title: Sessions
+    url: /secure/sessions
+    children:
+      - title: Sessions Layers
+        url: /secure/sessions/layers
+      - title: Session Lifetime Limits
+        url: /secure/sessions/lifetime
+      - title: Non-persistent sessions
+        url: /secure/sessions/non-persistent
+      - title: Manage Multi-site sessions with
+        url: /secure/sessions/multi-site
+      - title: Authentication API Cookies
+        url: /secure/sessions/cookies
 troubleshoot:
   - title: Logs
     url: /troubleshoot/logs
