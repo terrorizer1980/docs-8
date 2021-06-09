@@ -678,8 +678,62 @@ secure:
 troubleshoot:
   - title: Logs
     url: /troubleshoot/logs
+    children:
+      - title: Log Streams
+        url: /troubleshoot/logs/streams
+      - title: Log Data Retention
+        url: /troubleshoot/logs/data-retention
+      - title: View Log Data in the Dashboard
+        url: /troubleshoot/logs/dashboard
+      - title: Log Event Filters
+        url: /troubleshoot/logs/event-filters
+      - title: Retrieve Logs Using the Management API
+        url: /troubleshoot/logs/manage-api
+      - title: Log Event Type Codes
+        url: /troubleshoot/logs/code-types
+      - title: Log Search Query Syntax
+        url: /troubleshoot/logs/query-syntax
+      - title: Migrate from Logs Search v2 to v3
+        url: /troubleshoot/logs/mirate-v2-to-v3
   - title: Monitor
     url: /troubleshoot/monitor
+    children:
+      - title: Check Auth0 Status
+        url: /troubleshoot/monitor/auth0
+      - title: Check External Services Status
+        url: /troubleshoot/monitor/external-services
+      - title: Monitor Applications
+        url: /troubleshoot/monitor/apps
+      - title: Monitor Using SCOM
+        url: /troubleshoot/monitor/scom
+  - title: Support
+    url: /troubleshoot/support
+    children:
+      - title: Support Options
+        url: /troubleshoot/support/options
+      - title: Support Matrix
+        url: /troubleshoot/support/matrix
+      - title: SLA
+        url: /troubleshoot/support/sla
+      - title: Tickets
+        url: /troubleshoot/support/tickets
+      - title: Manage Subscription
+        url: /troubleshoot/support/subscription
+      - title: Operational Policies
+        url: /troubleshoot/support/policies
+  - title: Troubleshoot
+    url: /troubleshoot/troubleshoot
+    children:
+      - title: Basic Issues
+        url: /troubleshoot/troubleshoot/basic
+      - title: Authentication Issues
+        url: /troubleshoot/troubleshoot/auth
+      - title: Integration and Extensibility Issues
+        url: /troubleshoot/troubleshoot/integration-extensibility
+      - title: Generate and Analyze HAR Files
+        url: /troubleshoot/troubleshoot/har-files
+      - title: Authentication API Debugger
+        url: /troubleshoot/troubleshoot/api-debugger
 deploy:
   - title: Deploy
     url: /deploy/deploy
