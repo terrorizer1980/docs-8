@@ -1,8 +1,298 @@
 set-up:
   - title: Login
     url: /set-up/login
+    children:
+    - title: Universal Login
+      url: /set-up/login/universal
+      children:
+        - title: New Experience
+          url: /set-up/login/universal/new-experience
+        - title: Classic Experience
+          url: /set-up/login/universal/classic-experience
+        - title: Password Reset
+          url: /set-up/login/universal/password-reset
+        - title: Passwordless
+          url: /set-up/login/universal/passwordless
+        - title: Identifier-First Authentication
+          url: /set-up/login/universal/identifier-first-authentication
+        - title: Error Pages
+          url: /set-up/login/universal/error-pages
+        - title: Text Customization
+          url: /set-up/login/universal/text-customization
+        - title: Internationalization
+          url: /set-up/login/universal/internationalization
+        - title: Default Login URL
+          url: /set-up/login/universal/default-login-url
+        - title: Version Control
+          url: /set-up/login/universal/version
+    - title: Universal vs Embedded Login
+      url: /set-up/login/universal-vs-embedded
+    - title: Embedded Login
+      url: /set-up/login/embedded
+      children:
+        - title: Lock for Web
+          url: /set-up/login/embedded/lock-for-web
+        - title: Auth0.js
+          url: /set-up/login/embedded/auth0js
+        - title: Cross-Origin Authentication
+          url: /set-up/login/embedded/cross-origin-auth
+    - title: Silent Authentication
+      url: /set-up/login/silent-auth
+    - title: Redirect After Login
+      url: /set-up/login/redirect-after-auth
+    - title: Logout
+      url: /set-up/login/logout
+      children:
+        - title: Apps
+          url: /set-up/login/logout/apps
+        - title: Auth0
+          url: /set-up/login/logout/auth0
+        - title: Identity Providers
+          url: /set-up/login/logout/identity-providers
+        - title: SAML Identity Providers
+          url: /set-up/login/logout/saml-identity-providers
+        - title: Redirect After Logout
+          url: /set-up/login/logout/redirect-after-logout
   - title: Auth0 Overview
-    url: /set-up/auth0-overview
+    url: /set-up/overview
+    childre:
+    - title: Auth0 Overview
+      url: /set-up/overview/overview
+  - title: Set up Auth0
+    url: /set-up/auth0
+    children:
+      - title: Create a Tenant
+        url: /set-up/auth0/create-tenant
+      - title: Tenant Configuration
+        url: /set-up/auth0/tenant-configuration
+        children: 
+          - title: Signing Keys
+            url: /set-up/auth0/tenant-configuration/signing-keys
+          - title: Configure Session Lifetime Set
+            url: /set-up/auth0/tenant-configuration/configure-session-lifetime-set
+          - title: Configure Device User Code Set
+            url: /set-up/auth0/tenant-configuration/configure-device-user-code-set
+          - title: Recommended Settings
+            url: /set-up/auth0/tenant-configuration/recommended-settings
+          - title: Dynamic Client Registration
+            url: /set-up/auth0/tenant-configuration/dynamic-client-registration
+      - title: Manage Dashboard Access
+        url: /set-up/auth0/manage-dashboard-access
+        children: 
+          - title: Dashboard Access by Role
+            url: /set-up/auth0/manage-dashboard-access/by-role
+          - title: Add Tenant Members
+            url: /set-up/auth0/manage-dashboard-access/add-tenant-members
+          - title: Edit Tenant Members
+            url: /set-up/auth0/manage-dashboard-access/edit-tenant-members
+          - title: Remove Tenant Members
+            url: /set-up/auth0/manage-dashboard-access/remove-tenant-members
+          - title: Manage Access with MFA
+            url: /set-up/auth0/manage-dashboard-access/mfa
+          - title: Update Dashboard User Email
+            url: /set-up/auth0/manage-dashboard-access/update-user-email
+      - title: Setup an App
+        url: /set-up/auth0/setup-app
+      - title: Application Configuration
+        url: /set-up/auth0/app-config
+        children: 
+          - title: Enable SSO for Applications
+            url: /set-up/auth0/app-config/enable-sso
+          - title: Update Grant Types
+            url: /set-up/auth0/app-config/update-grant-types
+          - title: Android App Links
+            url: /set-up/auth0/app-config/android-app-links
+          - title: Apple Universal Links
+            url: /set-up/auth0/app-config/apple-universal-links
+          - title: Remove Applications
+            url: /set-up/auth0/app-config/remove-apps
+          - title: Check App Type
+            url: /set-up/auth0/app-config/check-app-type
+          - title: Rotate Client Secret
+            url: /set-up/auth0/app-config/rotate-client-secret
+          - title: Wildcards for Subdomains
+            url: /set-up/auth0/app-config/subdomain-wildcards
+          - title: Recommended Settings
+            url: /set-up/auth0/app-config/recommended-settings
+      - title: Set Up an API
+        url: /set-up/auth0/set-up-api
+      - title: API Configuration
+        url: /set-up/auth0/api-config
+        children: 
+          - title: Signing Algorithms
+            url: /set-up/auth0/api-config/signing-algorithms
+          - title: Represent Multiple APIs with a...
+            url: /set-up/auth0/api-config/multiple-apis-rep
+  - title: Identity Fundamentals
+    url: /set-up/identity-fundamentals
+    children:
+      - title: Authentication Standards
+        url: /set-up/identity-fundamentals/auth-standards
+        children:
+          - title: SAML
+            url: /set-up/identity-fundamentals/auth-standards/saml
+          - title: OIDC
+            url: /set-up/identity-fundamentals/auth-standards/oidc
+          - title: OAuth
+            url: /set-up/identity-fundamentals/auth-standards/oauth
+      - title: Authentication Methods
+        url: /set-up/identity-fundamentals/auth-methods
+        children:
+          - title: Passwordless
+            url: /set-up/identity-fundamentals/auth-methods/passwordless
+          - title: SSO
+            url: /set-up/identity-fundamentals/auth-methods/sso
+          - title: MFA
+            url: /set-up/identity-fundamentals/auth-methods/mfa
+      - title: Authentication Vs Authorization
+        url: /set-up/identity-fundamentals/auth-vs-auth
+      - title: Glossary
+        url: /set-up/identity-fundamentals/glossary
+  - title: User Migration
+    url: /set-up/user-migration
+    children:
+      - title: File Schema
+        url: /set-up/user-migration/file-schema
+      - title: Automatic
+        url: /set-up/user-migration/automatic
+      - title: Bulk Import
+        url: /set-up/user-migration/bulk-import
+      - title: Bulk Export
+        url: /set-up/user-migration/bulk-export
+      - title: User Import/Export Extension
+        url: /set-up/user-migration/user-import-export-extension
+      - title: Examples
+        url: /set-up/user-migration/examples
+  - title: Implementation Guides
+    url: /set-up/implementation-guides
+    children:
+      - title: Business to Consumer
+        url: /set-up/implementation-guides/b2c
+        children:
+          - title: Architecture
+            url: /set-up/implementation-guides/b2c/architecture
+          - title: Provisioning
+            url: /set-up/implementation-guides/b2c/provisioning
+          - title: Authentication
+            url: /set-up/implementation-guides/b2c/authentication
+          - title: Branding
+            url: /set-up/implementation-guides/b2c/branding
+          - title: Deployment Automation
+            url: /set-up/implementation-guides/b2c/deplloy-automate
+          - title: Quality Assurance
+            url: /set-up/implementation-guides/b2c/qa
+          - title: Profile Management
+            url: /set-up/implementation-guides/b2c/profile-mgmt
+          - title: Authorization
+            url: /set-up/implementation-guides/b2c/authorization
+          - title: Logout
+            url: /set-up/implementation-guides/b2c/logout
+          - title: Operations
+            url: /set-up/implementation-guides/b2c/ops
+          - title: Launch Preparation
+            url: /set-up/implementation-guides/b2c/launch-prep
+      - title: Business to Business
+        url: /set-up/implementation-guides/b2b
+        children:
+          - title: Architecture
+            url: /set-up/implementation-guides/b2b/architecture
+          - title: Provisioning
+            url: /set-up/implementation-guides/b2b/provisioning
+          - title: Authentication
+            url: /set-up/implementation-guides/b2b/authentication
+          - title: Branding
+            url: /set-up/implementation-guides/b2b/branding
+          - title: Deployment Automation
+            url: /set-up/implementation-guides/b2b/deplloy-automate
+          - title: Quality Assurance
+            url: /set-up/implementation-guides/b2b/qa
+          - title: Profile Management
+            url: /set-up/implementation-guides/b2b/profile-mgmt
+          - title: Authorization
+            url: /set-up/implementation-guides/b2b/authorization
+          - title: Logout
+            url: /set-up/implementation-guides/b2b/logout
+          - title: Operations
+            url: /set-up/implementation-guides/b2b/ops
+          - title: Launch Preparation
+            url: /set-up/implementation-guides/b2b/launch-prep
+      - title: Business to Employees
+        url: /set-up/implementation-guides/b2e
+      - title: SSO for Regular Web Apps
+        url: /set-up/implementation-guides/web-app-sso
+        children:
+          - title: Solution Overview
+            url: /set-up/implementation-guides/web-app-sso/solution-overview
+          - title: Configuration
+            url: /set-up/implementation-guides/web-app-sso/configuration
+          - title: Implementation
+            url: /set-up/implementation-guides/web-app-sso/implementation
+          - title: Conclusion
+            url: /set-up/implementation-guides/web-app-sso/conclusion
+      - title: Server Application + API
+        url: /set-up/implementation-guides/server-api
+        children:
+          - title: Solution Overview
+            url: /set-up/implementation-guides/server-api/solution-overview
+          - title: Configuration
+            url: /set-up/implementation-guides/server-api/configuration
+          - title: Implementation
+            url: /set-up/implementation-guides/server-api/implementation
+          - title: Conclusion
+            url: /set-up/implementation-guides/server-api/conclusion
+      - title: SPA + API
+        url: /set-up/implementation-guides/spa-api
+        children:
+          - title: Solution Overview
+            url: /set-up/implementation-guides/spa-api/solution-overview
+          - title: Configuration
+            url: /set-up/implementation-guides/spa-api/configuration
+          - title: Implementation
+            url: /set-up/implementation-guides/spa-api/implementation
+          - title: Conclusion
+            url: /set-up/implementation-guides/spa-api/conclusion
+      - title: Mobile + API
+        url: /set-up/implementation-guides/mobile-api
+        children:
+          - title: Solution Overview
+            url: /set-up/implementation-guides/mobile-api/solution-overview
+          - title: Configuration
+            url: /set-up/implementation-guides/mobile-api/configuration
+          - title: Implementation
+            url: /set-up/implementation-guides/mobile-api/implementation
+          - title: Conclusion
+            url: /set-up/implementation-guides/mobile-api/conclusion
+      - title: Implementation Checklists
+        url: /set-up/implementation-guides/implementation-checklist
+      - title: Implementation Resources
+        url: /set-up/implementation-guides/implementation-resources
+  - title: Authentication and Authorization Flows
+    url: /set-up/auth-flows
+    children:
+      - title: Authentication Flows
+        url: /set-up/auth-flows/authentication
+        children:
+          - title: Regular Web App
+            url: /set-up/auth-flows/authentication/regular-app
+          - title: Single-Page App
+            url: /set-up/auth-flows/authentication/spa
+          - title: Native App
+            url: /set-up/auth-flows/authentication/native-app      
+      - title: Authorization Flows
+        url: /set-up/auth-flows/authorization
+        children:
+          - title: Add Login using the Authorization 
+            url: /set-up/auth-flows/authorization/add-login
+          - title: Using Implicit Flow
+            url: /set-up/auth-flows/authorization/implicit-flow
+          - title: Authz flow with PKCE
+            url: /set-up/auth-flows/authorization/pkce
+          - title: Call API with Client Credentials
+            url: /set-up/auth-flows/authorization/api-client-credentials
+          - title: Call API using Device Authz Flow
+            url: /set-up/auth-flows/authorization/api-dev-authz
+          - title: Call API using implicit flow
+            url: /set-up/auth-flows/authorization/api-implicit
 configuration:
   - title: Database Connections
     url: /configuration/database-connections
