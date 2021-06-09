@@ -296,8 +296,197 @@ set-up:
 configuration:
   - title: Database Connections
     url: /configuration/database-connections
+    children:
+      - title: Auth0 User Store
+        url: /configuration/database-connections/auth0-user-store
+      - title: Your User Store
+        url: /configuration/database-connections/your-user-store
+      - title: Password Policies
+        url: /configuration/database-connections/password-policies
+      - title: Password Strength
+        url: /configuration/database-connections/password-strength
   - title: Identity Provider
     url: /configuration/identity-provider
+    children:
+      - title: Social Identity Providers
+        url: /configuration/identity-provider/social
+      - title: Enterprise Identity Providers
+        url: /configuration/identity-provider/enterprise
+      - title: Legal Identity Providers
+        url: /configuration/identity-provider/legal
+      - title: Pass Parameters to Identity Providers
+        url: /configuration/identity-provider/parameters
+  - title: Organizations
+    url: /configuration/organization
+    children:
+      - title: Creat Your First Organization
+        url: /configuration/organization/create
+      - title: Custom Development
+        url: /configuration/organization/custom-development
+      - title: Work with Tokens
+        url: /configuration/organization/tokens
+      - title: Configure Organizations
+        url: /configuration/organization/config
+  - title: Authorization
+    url: /configuration/authorization
+    children:
+      - title: Authorization Flows
+        url: /configuration/authorization/flows
+        children:
+          - title: Authorization Code
+            url: /configuration/authorization/flows/code
+          - title: Authorization Code with PKCE
+            url: /configuration/authorization/flows/pkce
+          - title: Client Credentials
+            url: /configuration/authorization/flows/client-creds
+          - title: Device Authorization
+            url: /configuration/authorization/flows/device
+      - title: Authorization Policies
+        url: /configuration/authorization/policies
+      - title: Rules for Authorization Policies
+        url: /configuration/authorization/policy-rules
+  - title: Passwordless
+    url: /configuration/passwordless
+    children:
+      - title: Authentication Factors
+        url: /configuration/passwordless/auth-factors
+        children:
+          - title: Email
+            url: /configuration/passwordless/auth-factors/email
+          - title: Magic Link
+            url: /configuration/passwordless/auth-factors/magic-link
+          - title: SMS
+            url: /configuration/passwordless/auth-factors/sms
+      - title: Universal Login
+        url: /configuration/passwordless/universal-login
+      - title: Embedded Login
+        url: /configuration/passwordless/embedded-login
+        children:
+          - title: Passwordless APIs
+            url: /configuration/passwordless/embedded-login/passwordless
+          - title: Native Apps
+            url: /configuration/passwordless/embedded-login/native
+          - title: Web Apps
+            url: /configuration/passwordless/embedded-login/web-apps
+          - title: SMS
+            url: /configuration/passwordless/embedded-login/sms
+      - title: Best Practices
+        url: /configuration/passwordless/best-practices
+  - title: Role-based Access Control
+    url: /configuration/rbac
+    children:
+      - title: Sample Use Cases - RBAC
+        url: /configuration/rbac/rbac
+      - title: Sample Use Cases - Rules
+        url: /configuration/rbac/rules
+      - title: Authz Core vs Authz Extension
+        url: /configuration/rbac/core-vs-extension
+      - title: How to Configure Core RBAC
+        url: /configuration/rbac/how-to-configure-core
+        chidren:
+        - title: Manage Roles
+          url: /configuration/rbac/how-to-configure-core/roles
+        - title: Manage RBAC Users
+          url: /configuration/rbac/how-to-configure-core/users
+        - title: Manage RBAC Permissions
+          url: /configuration/rbac/how-to-configure-core/permissions
+        - title: Enable RBAC for APIs
+          url: /configuration/rbac/how-to-configure-core/apis
+      - title: Call API using Device Authz Flow
+        url: /configuration/rbac/api-with-device-authz-flow
+      - title: Call API using implicit flow
+        url: /configuration/rbac/api-with-implicit-flow
+  - title: Single Sign-On
+    url: /configuration/sso
+    children:
+      - title: Inbound SSO
+        url: /configuration/sso/inbound
+      - title: Outbound SSO
+        url: /configuration/sso/outbound
+      - title: Relevant API Endpoints
+        url: /configuration/sso/api-endpoints
+  - title: Multi-factor Authentication
+    url: /configuration/mfa
+    children:
+      - title: Factors
+        url: /configuration/mfa/factors
+      - title: Enable MFA
+        url: /configuration/mfa/enable
+      - title: Guardian
+        url: /configuration/mfa/guardian
+      - title: Customize MFA
+        url: /configuration/mfa/customize
+      - title: Reset MFA
+        url: /configuration/mfa/reset
+      - title: Step-up Authentication
+        url: /configuration/mfa/step-up
+      - title: MFA Developer Resources
+        url: /configuration/mfa/dev-resources
+      - title: Troubleshoot MFA
+        url: /configuration/mfa/troubleshoot
+  - title: User Search
+    url: /configuration/search
+    children:
+      - title: Get Users
+        url: /configuration/search/get-users
+      - title: Get Users by Email
+        url: /configuration/search/users-by-email
+      - title: Get Users by ID
+        url: /configuration/search/users-by-id
+      - title: Sort Search Results
+        url: /configuration/search/sort-results
+      - title: View Search Results
+        url: /configuration/search/view-resutls
+      - title: Query Syntax
+        url: /configuration/search/query-syntax
+      - title: Best Practices
+        url: /configuration/search/best-practices
+  - title: Tokens
+    url: /configuration/tokens
+    children:
+      - title: ID Tokens
+        url: /configuration/tokens/id
+      - title: Access Tokens
+        url: /configuration/tokens/access
+      - title: Refresh Tokens
+        url: /configuration/tokens/refresh
+      - title: Refresh Token Rotations
+        url: /configuration/tokens/rotation
+      - title: Revoke Tokens
+        url: /configuration/tokens/revoke
+  - title: User Profiles
+    url: /configuration/user-profiles
+    children:
+      - title: Normalized User Profile
+        url: /configuration/user-profiles/normalize
+      - title: Update Profile Using Your Data
+        url: /configuration/user-profiles/update
+      - title: Progressive Profiling
+        url: /configuration/user-profiles/profiling
+      - title: User Profile Structure
+        url: /configuration/user-profiles/structure
+  - title: Protocols
+    url: /configuration/protocols
+    children:
+      - title: SAML
+        url: /configuration/protocols/saml
+        children:
+          - title: SAML IdP
+            url: /configuration/protocols/saml/idp
+          - title: SAML Configuration
+            url: /configuration/protocols/saml/configuration
+          - title: SAML for SSOs
+            url: /configuration/protocols/saml/sso
+      - title: OIDC
+        url: /configuration/protocols/oidc
+        children:
+          - title: Configure Apps with OIDC Di
+            url: /configuration/protocols/oidc/configure
+      - title: OAuth
+        url: /configuration/protocols/oauth
+        children:
+          - title: Prevent Attacks and Redirect us
+            url: /configuration/protocols/oauth/prevention
 customization:
   - title: Marketplace
     url: /customization/marketplace
