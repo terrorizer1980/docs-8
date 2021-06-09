@@ -737,8 +737,51 @@ troubleshoot:
 deploy:
   - title: Deploy
     url: /deploy/deploy
+    children:
+      - title: Deployment Options
+        url: /deploy/deploy/options
+      - title: Deploy Checklist
+        url: /deploy/deploy/checklist
+      - title: Pre-Deployment
+        url: /deploy/deploy/pre-deploy
+        children:
+          - title: Run Checks
+            url: /deploy/deploy/pre-deploy/run-checks
+          - title: Pre-Launch Tips
+            url: /deploy/deploy/pre-deploy/pre-launch
+      - title: Deploy CLI Tool
+        url: /deploy/deploy/cli-tools
   - title: Professional Services
     url: /deploy/professional-services
+    children:
+      - title: Discover and Design
+        url: /deploy/professional-services/design
+      - title: Implement
+        url: /deploy/professional-services/implement
+      - title: Maintain and Improve
+        url: /deploy/professional-services/maintain
+      - title: Packages
+        url: /deploy/professional-services/packages
+  - title: Product Lifecycle
+    url: /deploy/product-lifecycle
+    children:
+      - title: Product Release Stages
+        url: /deploy/product-lifecycle/release-stage
+      - title: Migration Process
+        url: /deploy/product-lifecycle/migration-process
+      - title: Active Migrations
+        url: /deploy/product-lifecycle/active-migrations
+  - title: Private Cloud
+    url: /deploy/private-cloud
+    children:
+      - title: Operations
+        url: /deploy/private-cloud/operations
+      - title: Migrations
+        url: /deploy/private-cloud/migrations
+      - title: Onboarding
+        url: /deploy/private-cloud/onboarding
+      - title: Deployments
+        url: /deploy/private-cloud/deployment
 articles:
   - title: Get Started
     url: /get-started
