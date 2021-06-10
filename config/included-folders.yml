@@ -1,10 +1,4 @@
-- /articles/api/authentication
-- /articles/api/authorization-extension
-- /articles/connections
-- /articles/integrations/sso
-- /articles/microsites
-- /articles/quickstart
-- /articles/_includes
+- /articles/empty
 - /articles/set-up
 - /articles/configuration
 - /articles/customization
