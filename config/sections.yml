@@ -8,6 +8,7 @@
   title: 'Set Up'
   url: '/set-up'
   folder: 'set-up'
+  default: true
 
 - id: 'configuration'
   title: 'Configuration'
